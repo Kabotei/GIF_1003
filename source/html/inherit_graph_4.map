@@ -1,0 +1,8 @@
+<map id="Graphical Class Hierarchy" name="Graphical Class Hierarchy">
+<area shape="rect" id="node1" title=" " alt="" coords="5,81,96,108"/>
+<area shape="rect" id="node2" href="$class_contrat_exception.html" title="Classe de base des exceptions de contrat." alt="" coords="144,81,279,108"/>
+<area shape="rect" id="node3" href="$class_assertion_exception.html" title="Classe pour la gestion des erreurs d&#39;assertion." alt="" coords="341,5,487,32"/>
+<area shape="rect" id="node4" href="$class_invariant_exception.html" title="Classe pour la gestion des erreurs d&#39;invariant." alt="" coords="342,56,486,83"/>
+<area shape="rect" id="node5" href="$class_postcondition_exception.html" title="Classe pour la gestion des erreurs de postcondition." alt="" coords="327,107,501,133"/>
+<area shape="rect" id="node6" href="$class_precondition_exception.html" title="Classe pour la gestion des erreurs de précondition." alt="" coords="331,157,497,184"/>
+</map>
