@@ -1,0 +1,7 @@
+<map id="biblio::Journal::reqReferenceFormate" name="biblio::Journal::reqReferenceFormate">
+<area shape="rect" id="node1" title="formate l&#39;objet courant en chaîne de caractères" alt="" coords="5,104,212,145"/>
+<area shape="rect" id="node2" href="$classbiblio_1_1_reference.html#a842fc37dfaa3fa224e4ca6f592172242" title="assesseur de m_annee" alt="" coords="260,5,400,47"/>
+<area shape="rect" id="node3" href="$classbiblio_1_1_reference.html#a770a2551c308ae8c1836f70630a2d62a" title="assesseur de m_auteurs" alt="" coords="260,71,400,112"/>
+<area shape="rect" id="node4" href="$classbiblio_1_1_reference.html#a51316a69d51ec547c063ee534fb1ce35" title="assesseur de m_identifiant" alt="" coords="260,136,400,177"/>
+<area shape="rect" id="node5" href="$classbiblio_1_1_reference.html#a7af93bed2b19daf1d53a5a46387d59f0" title="assesseur de m_titre" alt="" coords="260,201,400,243"/>
+</map>
