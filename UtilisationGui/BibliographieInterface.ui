@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>BibliographieInterface</class>
+ <widget class="QMainWindow" name="BibliographieInterface">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>800</width>
+    <height>600</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>BibliographieInterface</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <widget class="QTextEdit" name="affichage">
+    <property name="geometry">
+     <rect>
+      <x>180</x>
+      <y>100</y>
+      <width>401</width>
+      <height>321</height>
+     </rect>
+    </property>
+    <property name="readOnly">
+     <bool>true</bool>
+    </property>
+   </widget>
+  </widget>
+  <widget class="QMenuBar" name="menubar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>800</width>
+     <height>22</height>
+    </rect>
+   </property>
+   <widget class="QMenu" name="menuInterface">
+    <property name="title">
+     <string>Menu</string>
+    </property>
+    <widget class="QMenu" name="menuAjouter_un_r_f_rence">
+     <property name="title">
+      <string>Ajouter un référence</string>
+     </property>
+     <addaction name="actionAjouter_un_ouvrage"/>
+     <addaction name="actionAjouter_un_journal"/>
+    </widget>
+    <addaction name="menuAjouter_un_r_f_rence"/>
+    <addaction name="actionSuprimmer_un_r_f_rence"/>
+    <addaction name="actionQuitter"/>
+   </widget>
+   <addaction name="menuInterface"/>
+  </widget>
+  <widget class="QStatusBar" name="statusbar"/>
+  <action name="actionSuprimmer_un_r_f_rence">
+   <property name="text">
+    <string>Supprimer référence</string>
+   </property>
+  </action>
+  <action name="actionQuitter">
+   <property name="text">
+    <string>Quitter</string>
+   </property>
+  </action>
+  <action name="actionAjouter_un_ouvrage">
+   <property name="text">
+    <string>Ajouter un ouvrage</string>
+   </property>
+  </action>
+  <action name="actionAjouter_un_journal">
+   <property name="text">
+    <string>Ajouter un journal</string>
+   </property>
+  </action>
+ </widget>
+ <resources/>
+ <connections>
+  <connection>
+   <sender>actionQuitter</sender>
+   <signal>triggered()</signal>
+   <receiver>BibliographieInterface</receiver>
+   <slot>close()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>-1</x>
+     <y>-1</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>399</x>
+     <y>299</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>actionAjouter_un_journal</sender>
+   <signal>triggered()</signal>
+   <receiver>BibliographieInterface</receiver>
+   <slot>ajouterJournal()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>-1</x>
+     <y>-1</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>399</x>
+     <y>299</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>actionAjouter_un_ouvrage</sender>
+   <signal>triggered()</signal>
+   <receiver>BibliographieInterface</receiver>
+   <slot>ajouterOuvrage()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>-1</x>
+     <y>-1</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>399</x>
+     <y>299</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>actionSuprimmer_un_r_f_rence</sender>
+   <signal>triggered()</signal>
+   <receiver>BibliographieInterface</receiver>
+   <slot>supprimerReference()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>-1</x>
+     <y>-1</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>399</x>
+     <y>299</y>
+    </hint>
+   </hints>
+  </connection>
+ </connections>
+ <slots>
+  <slot>supprimerReference()</slot>
+  <slot>ajouterJournal()</slot>
+  <slot>ajouterOuvrage()</slot>
+  <slot>validation()</slot>
+ </slots>
+</ui>
