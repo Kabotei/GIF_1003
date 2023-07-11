@@ -1,0 +1,7 @@
+<map id="biblio::Reference::reqIdentifiant" name="biblio::Reference::reqIdentifiant">
+<area shape="rect" id="node1" title="assesseur de m_identifiant" alt="" coords="269,104,409,145"/>
+<area shape="rect" id="node2" href="$classbiblio_1_1_reference.html#accb290bbcd447a7a4edc94e59217efb7" title="vérifie l&#39;égalité de 2 objets sur tous leurs attributs." alt="" coords="43,5,183,47"/>
+<area shape="rect" id="node3" href="$classbiblio_1_1_ouvrage.html#a6084b9422dfe494f6f71cdea3e607b90" title="formate l&#39;objet courant en chaîne de caractères" alt="" coords="5,71,221,112"/>
+<area shape="rect" id="node4" href="$classbiblio_1_1_journal.html#a026ef2019040b9f5ffa34981a3df5c48" title="formate l&#39;objet courant en chaîne de caractères" alt="" coords="10,136,217,177"/>
+<area shape="rect" id="node5" href="$classbiblio_1_1_bibliographie.html#a4f102dd94980e98e8bd69094cb08a172" title="permet de supprimer une référence au vecteur des références" alt="" coords="32,201,195,243"/>
+</map>
