@@ -1,0 +1,7 @@
+<map id="biblio::Reference::reqTitre" name="biblio::Reference::reqTitre">
+<area shape="rect" id="node1" title="assesseur de m_titre" alt="" coords="269,93,409,135"/>
+<area shape="rect" id="node2" href="$classbiblio_1_1_reference.html#accb290bbcd447a7a4edc94e59217efb7" title="vérifie l&#39;égalité de 2 objets sur tous leurs attributs." alt="" coords="43,5,183,47"/>
+<area shape="rect" id="node3" href="$classbiblio_1_1_journal.html#a73ef47e10d6ed7d647069b760f4fcc5c" title="assesseur de m_nom" alt="" coords="28,71,199,98"/>
+<area shape="rect" id="node4" href="$classbiblio_1_1_ouvrage.html#a6084b9422dfe494f6f71cdea3e607b90" title="formate l&#39;objet courant en chaîne de caractères" alt="" coords="5,123,221,164"/>
+<area shape="rect" id="node5" href="$classbiblio_1_1_journal.html#a026ef2019040b9f5ffa34981a3df5c48" title="formate l&#39;objet courant en chaîne de caractères" alt="" coords="10,188,217,229"/>
+</map>

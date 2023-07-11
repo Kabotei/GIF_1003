@@ -1,0 +1,6 @@
+<map id="ReferenceException" name="ReferenceException">
+<area shape="rect" id="node1" title="Classe de base des exceptions de reference." alt="" coords="155,80,307,107"/>
+<area shape="rect" id="node3" href="$class_reference_absente_exception.html" title="Classe fille des exceptions de Reference absente." alt="" coords="5,155,211,181"/>
+<area shape="rect" id="node4" href="$class_reference_deja_presente_exception.html" title="Classe fille des exceptions de Reference deja presente." alt="" coords="235,155,474,181"/>
+<area shape="rect" id="node2" title=" " alt="" coords="161,5,300,32"/>
+</map>
